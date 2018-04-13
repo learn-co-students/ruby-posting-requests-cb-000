@@ -1535,3 +1535,135 @@ Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8b
 
 
 Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-02-15 14:53:55 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-13 14:28:43 +0200
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (16.2ms)
+Completed 200 OK in 404ms (Views: 381.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 127.0.0.1 at 2018-04-13 14:28:45 +0200
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 127.0.0.1 at 2018-04-13 14:28:45 +0200
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2018-04-13 14:28:45 +0200
+
+
+Started GET "/assets/turbolinks.self-2db6ec539b9190f75e1d477b305df53d12904d5cafdd47c7ffd91ba25cbec128.js?body=1" for 127.0.0.1 at 2018-04-13 14:28:45 +0200
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2018-04-13 14:28:46 +0200
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-13 14:35:36 +0200
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 68ms (Views: 67.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2018-04-13 14:35:36 +0200
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 127.0.0.1 at 2018-04-13 14:35:36 +0200
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2018-04-13 14:35:36 +0200
+
+
+Started GET "/assets/turbolinks.self-2db6ec539b9190f75e1d477b305df53d12904d5cafdd47c7ffd91ba25cbec128.js?body=1" for 127.0.0.1 at 2018-04-13 14:35:36 +0200
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 127.0.0.1 at 2018-04-13 14:35:36 +0200
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-13 14:36:28 +0200
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (16.4ms)
+Completed 200 OK in 246ms (Views: 222.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2018-04-13 14:36:30 +0200
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 127.0.0.1 at 2018-04-13 14:36:30 +0200
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2018-04-13 14:36:30 +0200
+
+
+Started GET "/assets/turbolinks.self-2db6ec539b9190f75e1d477b305df53d12904d5cafdd47c7ffd91ba25cbec128.js?body=1" for 127.0.0.1 at 2018-04-13 14:36:30 +0200
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 127.0.0.1 at 2018-04-13 14:36:30 +0200
+
+
+Started POST "/search" for 127.0.0.1 at 2018-04-13 14:36:35 +0200
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"JPcdAEsQXJHpc4Wp1qSkKZPu130zeCpDvXhetoPNare1uElXwQpfHs+nXyw9Hbx3o2x4j9Ryi5gJvrHmlDYGZw==", "zipcode"=>"cairo mole", "commit"=>"Search!"}
+  Rendered searches/search.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 1676ms (Views: 9.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for 127.0.0.1 at 2018-04-13 14:36:44 +0200
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"XjgmUIr22BonefrlmclZvT9lF6+xIrXhDusLfpT6AXjPd3IHAOzblQGtIGBycEHjD+e4XVYoFDq6LeQugwFtqA==", "zipcode"=>"81111", "commit"=>"Search!"}
+  Rendered searches/search.html.erb within layouts/application (3.8ms)
+Completed 200 OK in 1242ms (Views: 26.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/tips" for 127.0.0.1 at 2018-04-13 14:40:36 +0200
+Processing by TipsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"virgICp94FKldLVkeUosyBEmBu6o6PgfltDNlh1BSxAvZbR3oGfj3YOgb+GS8zSWIaSpHE/iWcQiFiLGCronwA==", "venue_id"=>"57d2c2fe498e5dd3791b1804", "tip"=>"nice place!", "commit"=>"Add Tip"}
+Redirected to http://localhost:3000/tips
+Completed 302 Found in 1010ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/tips" for 127.0.0.1 at 2018-04-13 14:40:37 +0200
+Processing by TipsController#index as HTML
+  Rendered tips/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 17ms (Views: 16.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tips" for 127.0.0.1 at 2018-04-13 14:44:01 +0200
+Processing by TipsController#index as HTML
+  Rendered tips/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 742ms (Views: 12.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2018-04-13 14:44:02 +0200
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 127.0.0.1 at 2018-04-13 14:44:02 +0200
+
+
+Started GET "/assets/turbolinks.self-2db6ec539b9190f75e1d477b305df53d12904d5cafdd47c7ffd91ba25cbec128.js?body=1" for 127.0.0.1 at 2018-04-13 14:44:02 +0200
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 127.0.0.1 at 2018-04-13 14:44:02 +0200
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2018-04-13 14:44:02 +0200
+
+
+Started GET "/tips" for 127.0.0.1 at 2018-04-13 14:45:07 +0200
+Processing by TipsController#index as HTML
+  Rendered tips/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 1098ms (Views: 9.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2018-04-13 14:45:08 +0200
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2018-04-13 14:45:08 +0200
+
+
+Started GET "/assets/turbolinks.self-2db6ec539b9190f75e1d477b305df53d12904d5cafdd47c7ffd91ba25cbec128.js?body=1" for 127.0.0.1 at 2018-04-13 14:45:08 +0200
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 127.0.0.1 at 2018-04-13 14:45:08 +0200
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 127.0.0.1 at 2018-04-13 14:45:08 +0200
