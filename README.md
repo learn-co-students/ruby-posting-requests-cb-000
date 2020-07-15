@@ -13,7 +13,7 @@ We're going to keep working with our Foursquare application and allow users to a
 **Note:** Don't forget to set up your `.env` file (or copy it from the previous lesson)!
 
 ## Working With A POST API Endpoint
-
+ 
 If we look at the [Add Tip documentation](https://developer.foursquare.com/docs/tips/add), we'll see that we need to make this request via POST. Up until now we've been making GET requests, because we're just asking for data. But once we start changing data on the server, we're in POST territory.
 
 According to the docs, we'll need to POST to `https://api.foursquare.com/v2/tips/add` with a `venueId`, some `text`, and, since it requires an acting user, our `oauth_token`. If you need a refresher on how to do OAuth with Foursquare, click the [learn more link](https://developer.foursquare.com/overview/auth) next to where it says **Requires Acting User**.
